@@ -1,0 +1,100 @@
+/*Basic Element Style*/
+body{
+    background: #8080ff; 
+}
+
+main{
+    max-width: 32rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color:  #ff3333; 
+}
+/*End of Basic Element Style*/
+/*The Controls Style*/
+#messageBox{
+    text-align: center;
+    color: #141452;
+    border: 4px solid #ff3333;
+    border-radius: 10px;
+}
+
+#difficulty{
+    height: 65px;
+    width: 140px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color:  #4d001f;
+    color: #ff3333;
+    padding-left: 20px;
+}
+
+.controls{
+    text-align: center;
+}
+/*End of the Controls Style*/
+/*Board Style*/
+.square{
+    display: inline-block;
+    width: 10em;
+    height: 75px;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+    line-height: 75px;
+    color: #330000;
+}
+
+.left{
+    border-right: 1px solid #330000;
+}
+
+.right{
+    border-left: 7px solid #330000;
+}
+
+.top{
+    border-bottom: 1px solid #330000;
+}
+
+.bottom{
+    border-top: 7px solid #330000;
+}
+
+.v-middle{
+    border-right: 1px solid #330000;
+    border-left: 7px solid #330000;
+}
+
+.h-middle{
+    border-top: 7px solid #330000;
+    border-bottom: 1px solid #330000;
+}
+/*End of Board Style*/
+/*Buttons Style*/
+.button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: crimson;
+    background-color: #330000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px ;
+}
+
+.button:hover {background-color: #ffe6e6;}
+
+.button:active{
+    background-color: #ffe6e6;
+    box-shadow: 0 5px crimson;
+    transform: translateY(4px);
+}
+/*End of Bottons Style*/
